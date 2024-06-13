@@ -1,0 +1,99 @@
+
+h3, h4, div, p {
+	margin: 0;
+	padding: 0
+}
+
+p {
+	margin-left: 3px;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+}
+
+input[type=number] {
+	width: 30px;
+}
+
+input[type=button] {
+	width: 34px;
+	background: url(images/panier20.jpg) no-repeat;
+}
+
+#page {
+	margin: auto;
+}
+
+#main {
+	display: flex;
+	flex-direction: row;
+	height: 700px;
+}
+
+#catalog {
+	width: 610px;
+	overflow: auto;
+}
+
+.cls-div-produit {
+	display: inline-block;
+	width: 150px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.cls-div-infos-produit {
+	display: flex;
+	flex-direction: row;
+}
+
+.cls-div-img-produit {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cls-div-img-produit p {
+	margin-left: -100px;
+	background-color: red;
+	color: white;
+	height: 20px;
+	padding: 3px;
+}
+
+.cls-div-btn {
+	width: 35px;
+	height: 35px;
+	padding: 5px;
+}
+.cls-div-btn > img {
+	width: 25px;
+	height: 25px;
+	opacity: 0.25;
+}
+
+.cls-supprimer-produit {
+	width: 30px;
+	height: 30px;
+	display: inline;
+}
+
+.cls-supprimer-produit > img {
+	width: 30px;
+	height: 30px;
+}
+
+.cls-produits-achete {
+	display: flex;
+	flex-direction: row;
+}
+
+.cls-produits-achete img {
+	width: 50px !important;
+	height: 50px !important;
+}
+
+.cls-sous-total {
+	font-weight: bold;
+}
