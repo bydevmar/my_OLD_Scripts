@@ -1,0 +1,4 @@
+create database EFM2011
+USE EFM2011
+
+create table ATHLETE(	NumLicence	INT NOT NULL identity primary key,	NomAthlete nvarchar(90) not null, 	PrenomAthlete nvarchar(90) not null,	CategorieAthlete nvarchar(90) not null)create table PISCINE(	NumPiscine int identity not null primary key ,	NomPiscine nvarchar(99),	AdressePiscine nvarchar(99))create table ENTRAINEMENT(	NumEntrainement int not null primary key identity,	DateEntrainement date ,	HeureDebut time not null, 	HeureFin time not null,	NumPiscine# int not null references PISCINE(NumPiscine))create table PLAN_ENTRAINEMENT(		NumEntrainement# int not null references ENTRAINEMENT(NumEntrainement),	NumLicence# int not null references ATHLETE(NumLicence),	DistanceAParcourir int not null,	DistanceParcourue int not null)
