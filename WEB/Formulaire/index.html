@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div class="cls-page">
+		<form id="form_inscription" action="cible.html" method="POST">
+			<div class="cls-errors-msg">
+				Bjr
+			</div>
+		<div class="cls-form-line">
+			<label>Civilité</label>
+			<select  name="select_civilite" id="select_civilite">
+				<option value="">Choisir...</option>
+				<option value="Mr">Mr.</option>
+				<option value="Mme">Mme.</option>
+				<option value="Mlle">Mlle.</option>
+			</select>
+		</div>
+		<div class="cls-form-line">
+			<label>Nom</label>
+			<input  name="text_nom" id="text_nom" type="text">
+		</div>
+		<div class="cls-form-line">
+			<label>Prénom</label>
+			<input  name="text_prenom" id="text_prenom" type="text">
+		</div>
+		<div class="cls-form-line">
+			<label>Date de naissance</label>
+			<input  name="date_naissance" type="date">
+		</div>
+		<div class="cls-form-line">
+			<label>Langues</label>
+			<input name="cb_amz" type="checkbox" value="Amz">
+			<span>Amazigh</span>
+			<input name="cb_ar" type="checkbox" value="Ar">
+			<span>Arabe</span>
+			<input name="cb_fr" type="checkbox" value="Fr">
+			<span>Français</span>
+			<input name="cb_an" type="checkbox" value="An">
+			<span>Anglais</span>
+		</div>
+		<div class="cls-form-line">
+			<label>Nationalité</label>
+			<input checked name="radio_nationalite" type="radio" value="Marocain">
+			<span>Marocain</span>
+			<input name="radio_nationalite" type="radio" value="Etranger">
+			<span>Etranger</span>
+		</div>
+		<div class="cls-form-line">
+			<label>Email</label>
+			<input  name="email_email" id="email_email" type="text">
+		</div>
+		<div class="cls-form-line">
+			<label>Mot De Passe</label>
+			<input name="password_password" type="password">
+		</div>
+		<div class="cls-form-line">
+			<label>Confirmation Mot De Passe</label>
+			<input  name="password_confirmation" id="password_confirmation" type="password">
+		</div>
+		<div class="cls-form-line">
+			<input name="btn_submit" type="submit" value="Envoyer">
+		</div>
+	</form>
+	</div>
+</body>
+</html>

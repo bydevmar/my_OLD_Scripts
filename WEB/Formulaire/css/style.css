@@ -1,0 +1,15 @@
+
+.cls-errors {
+	color: red;
+	display: block;
+}
+
+
+.cls-errors2, .cls-errors4 {
+	color: red;
+}
+
+
+.cls-errors3 {
+	border: 1px solid red;
+}
